@@ -1,29 +1,32 @@
 .header {
     padding: 20px;
     text-align: left;
-    background: rgb(64, 64, 255);
+    background: #000028b7;
     color: white;
     font-size: 20px;
 }
 
-body{
+body {
     margin: 0;
-    padding: 0; 
-    background: rgb(64, 64, 255);
+    padding: 0;
+    background: #000028b7;
     font-family: Arial;
     color: white;
 }
-.navbar ul{
+
+.navbar ul {
     list-style: none;
-    background: rgb(64, 64, 255);
+    background: #000028b7;
     padding: 0;
     margin: 0;
-    text-align: right; 
+    text-align: right;
 }
+
 .navbar li {
     display: inline-block;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     color: #fff;
     width: 100px;
@@ -35,10 +38,12 @@ body{
     text-align: center;
     font-size: 14px
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background: #353640;
 
 }
+
 aside {
     width: 30%;
     padding-left: 15px;
@@ -48,26 +53,27 @@ aside {
     float: right;
     font-style: italic;
     background-color: gray;
- }
- 
- .section {
+}
+
+.section {
     background-color: lightgrey;
     width: 300px;
     border: 15px white;
     padding: 50px;
     margin: 20px;
 
- }
- 
- /*Category Section Boxes*/
-.index-category{
-    width:100%;
+}
+
+/*Category Section Boxes*/
+.index-category {
+    width: 100%;
     padding: 60px 0;
     background-color: white;
     display: flex;
     justify-content: left;
     column-gap: 20px;
 }
+
 .index-category-box {
     width: 200px;
     height: 200px;
@@ -78,24 +84,46 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+
+
 }
+
 .index-category-box:nth-child(1) {
-    background-image: url(../img/pexels-steve-1981468.jpg); 
+    background-image: url(../img/pexels-steve-1981468.jpg);
 }
+
 .index-category-box:nth-child(2) {
     background-image: url(../img/pexels-kevin-ku-92347-577585.jpg);
 }
+
 .index-category-box:nth-child(3) {
     background-image: url(../img/pexels-pixabay-270366.jpg);
 }
+
 .index-category-box:nth-child(4) {
     background-image: url(../img/pexels-ellis-1389429.jpg);
 }
 
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
 
+
+}
+.index-category-box:hover .dark-overlay{
+    opacity: 0; 
+}
 
 
 .index-category-box h3 {
     font-size: 22px;
     line-height: 28px;
+    text-align: center;
+    text-shadow: -2px 2px 4px color(black);
+    z-index: 100;
 }
