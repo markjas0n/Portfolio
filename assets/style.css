@@ -1,129 +1,25 @@
-.header {
-    padding: 20px;
-    text-align: left;
-    background: #000028b7;
-    color: white;
-    font-size: 20px;
-}
+/* Custom styles to override or add to the Bootswatch Flatly theme */
 
-body {
-    margin: 0;
-    padding: 0;
-    background: #000028b7;
-    font-family: Arial;
-    color: white;
-}
-
-.navbar ul {
-    list-style: none;
-    background: #000028b7;
-    padding: 0;
-    margin: 0;
-    text-align: right;
-}
-
-.navbar li {
-    display: inline-block;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #fff;
-    width: 100px;
-    display: block;
-    padding: 25x 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: arial;
-    text-align: center;
-    font-size: 14px
-}
-
-.navbar a:hover {
-    background: #353640;
-
-}
-
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    min-height: 50%;
-    min-height: 50%;
-    float: right;
-    font-style: italic;
-    background-color: gray;
-}
-
-.section {
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px white;
-    padding: 50px;
-    margin: 20px;
-
-}
-
-/*Category Section Boxes*/
-.index-category {
-    width: 100%;
+/* Ensure all sections have some padding */
+section {
     padding: 60px 0;
-    background-color: white;
-    display: flex;
-    justify-content: left;
-    column-gap: 20px;
 }
 
-.index-category-box {
-    width: 200px;
-    height: 200px;
-    background-color: antiquewhite;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-
+/* Custom styling for the card titles in the Work section */
+.card-title {
+    color: #333;
+    font-weight: bold;
 }
 
-.index-category-box:nth-child(1) {
-    background-image: url(../img/pexels-steve-1981468.jpg);
+/* Custom hover effect for the project cards */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
 }
 
-.index-category-box:nth-child(2) {
-    background-image: url(../img/pexels-kevin-ku-92347-577585.jpg);
-}
-
-.index-category-box:nth-child(3) {
-    background-image: url(../img/pexels-pixabay-270366.jpg);
-}
-
-.index-category-box:nth-child(4) {
-    background-image: url(../img/pexels-ellis-1389429.jpg);
-}
-
-.dark-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: black;
-    opacity: 0.5;
-
-
-}
-.index-category-box:hover .dark-overlay{
-    opacity: 0; 
-}
-
-
-.index-category-box h3 {
-    font-size: 22px;
-    line-height: 28px;
-    text-align: center;
-    text-shadow: -2px 2px 4px color(black);
-    z-index: 100;
+/* Ensure the footer sticks to the bottom of the page */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
