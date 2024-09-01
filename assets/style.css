@@ -38,11 +38,12 @@ footer {
     width: 100%;
 }
 
-/* Add border around the profile picture */
+/* Add border around the profile picture, increase size, and move it slightly to the right */
 #about img {
     border: 5px solid #818589;
     width: 100%; /* Ensures the image takes the full width of its container */
-    max-width: 150px; /* Adjust the maximum width of the profile picture for better proportion */
+    max-width: 200px; /* Increase the maximum width of the profile picture */
+    margin-left: 20px; /* Move the image slightly to the right */
 }
 
 /* Make the navbar floating */
@@ -61,6 +62,12 @@ body {
 /* Decrease font size for section headings */
 h2 {
     font-size: 1.75rem;
+    color: #c5c6c7; /* Change title color */
+}
+
+/* Change text color */
+p, .about-text, .card-body {
+    color: #a1aeb1;
 }
 
 /* Decrease padding inside the container to reduce overall size of the sections */
@@ -82,12 +89,9 @@ h2 {
 }
 
 /* Adjust size of the image icons in Contact and Resume sections */
-#contact .img-link {
-    width: 25%; /* 25% of the size of images in the Work section */
-}
-
+#contact .img-link,
 #resume .img-link {
-    width: 50%; /* 50% of the size of images in the Work section */
+    width: 25%; /* Set the Resume image size to match the Contact images */
 }
 
 /* Center the icons vertically and horizontally */
