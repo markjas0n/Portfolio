@@ -8,6 +8,12 @@
     <!-- Link to the Flatly theme -->
     <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/flatly/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script>
+        // Function to show a pop-up with custom text
+        function showPopup(text) {
+            alert(text);
+        }
+    </script>
 </head>
 
 <body>
@@ -46,12 +52,12 @@
         <section id="about" class="mb-5">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="assets/images/IMG_7602 2.jpg" alt="Photo of Mark Jason" class="img-fluid rounded-circle">
+                    <img src="assets/images/HQ.png" alt="Photo of Mark Jason" class="img-fluid rounded-circle">
                 </div>
                 <div class="col-md-8">
                     <h2>About Me</h2>
                     <p>
-                      tes ttestestestetstestestetsetses
+                        tes ttestestestetstestestetsetses
                     </p>
                 </div>
             </div>
@@ -59,55 +65,85 @@
 
         <!-- Work Section -->
         <section id="work" class="mb-5">
-            <h2>My Work</h2>
             <div class="row">
                 <div class="col-md-4 mb-3">
-                    <a href="https://github.com/markjas0n/project1" class="card">
-                        <img src="path/to/project1-image.jpg" class="card-img-top" alt="Project 1">
+                    <a href="https://github.com/markjas0n/Horiseon" class="card">
+                        <img src="assets/images/horiseon.png" class="card-img-top" alt="Horiseon">
                         <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
+                            <!-- Removed title text -->
                         </div>
                     </a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="https://github.com/markjas0n/project2" class="card">
-                        <img src="path/to/project2-image.jpg" class="card-img-top" alt="Project 2">
+                    <a href="https://github.com/markjas0n/payrolling.pains" class="card">
+                        <img src="assets/images/employee.png" class="card-img-top" alt="Employee Tracker">
                         <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
+                            <!-- Removed title text -->
                         </div>
                     </a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="https://github.com/markjas0n/project3" class="card">
-                        <img src="path/to/project3-image.jpg" class="card-img-top" alt="Project 3">
+                    <a href="https://github.com/markjas0n/do-you-code" class="card">
+                        <img src="assets/images/codespace.png" class="card-img-top" alt="text-Codespace_">
                         <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
+                            <!-- Removed title text -->
                         </div>
                     </a>
                 </div>
-                <!-- Add more projects as needed -->
+                <div class="col-md-4 mb-3">
+                    <a href="https://github.com/markjas0n/do-you-code" class="card">
+                        <img src="assets/images/weather.png" class="card-img-top" alt="text-weather">
+                        <div class="card-body">
+                            <!-- Removed title text -->
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="https://github.com/markjas0n/Blog.Frog" class="card">
+                        <img src="assets/images/personal-blog.png" class="card-img-top" alt="text-personal-blog">
+                        <div class="card-body">
+                            <!-- Removed title text -->
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="https://github.com/akaufmanfrey/Concert-Tracker" class="card">
+                        <img src="assets/images/concert-tra.png" class="card-img-top" alt="text-concert-tracker">
+                        <div class="card-body">
+                            <!-- Removed title text -->
+                        </div>
+                    </a>
+                </div>
             </div>
         </section>
 
         <!-- Contact Section -->
         <section id="contact" class="mb-5">
             <h2>Contact</h2>
-            <p>
-                Feel free to reach out to me through email at <a href="mailto:markjas0n@icloud.com">markas0n@icloud.com</a>
-                or connect with me on <a href="https://www.linkedin.com/in/markjas0n">LinkedIn</a>.
-            </p>
+            <div>
+                <a href="javascript:void(0);" onclick="showPopup('markjas0n@icloud.com');">
+                    <img src="assets/images/email2.webp" alt="Email Icon" class="img-link">
+                </a>
+                <a href="javascript:void(0);" onclick="showPopup('linked account');">
+                    <img src="assets/images/linkedin-icon.png" alt="LinkedIn Icon" class="img-link">
+                </a>
+            </div>
         </section>
 
         <!-- Resume Section -->
         <section id="resume" class="mb-5">
             <h2>Resume</h2>
-            <p>
-                <a href="path/to/my-resume.pdf" target="_blank" class="btn btn-primary">Download My Resume</a>
-            </p>
+            <a href="path/to/my-resume.pdf" target="_blank">
+                <img src="assets/images/resume-icon.png" alt="Resume Icon" class="img-link">
+            </a>
         </section>
 
     </div>
 
     <!-- Footer -->
     <footer class="bg-primary text-white text-center py-3">
-        <p>&copy; 2024 Mark Jas0n's Portfolio</p
+        <p>&copy; markjas0n 2024</p>
+    </footer>
+
+</body>
+</html>

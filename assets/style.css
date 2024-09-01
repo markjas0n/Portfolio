@@ -1,14 +1,18 @@
 /* Custom styles to override or add to the Bootswatch Flatly theme */
 
-/* Ensure all sections have some padding */
+/* Decrease padding for all sections */
 section {
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 /* Custom styling for the card titles in the Work section */
 .card-title {
-    color: #333;
-    font-weight: bold;
+    display: none; /* Hides the card titles */
+}
+
+/* Remove padding inside the card body to eliminate space where title was */
+.card-body {
+    padding: 0; /* Removes padding inside the card body */
 }
 
 /* Custom hover effect for the project cards */
@@ -22,4 +26,41 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Add border around the profile picture */
+#about img {
+    border: 5px solid #818589;
+    width: 100%; /* Ensures the image takes the full width of its container */
+    max-width: 150px; /* Adjust the maximum width of the profile picture for better proportion */
+}
+
+/* Make the navbar floating */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Add padding to the top of the page to prevent content from hiding under the navbar */
+body {
+    padding-top: 70px;
+}
+
+/* Decrease font size for section headings */
+h2 {
+    font-size: 1.75rem;
+}
+
+/* Decrease padding inside the container to reduce overall size of the sections */
+.container {
+    max-width: 900px; /* Reduce the container's max-width */
+}
+
+/* Styling for image links */
+.img-link {
+    width: 50px;
+    margin-right: 15px;
+    cursor: pointer;
 }
