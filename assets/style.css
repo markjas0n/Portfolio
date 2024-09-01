@@ -94,3 +94,29 @@ h2 {
 #contact, #resume {
     text-align: center;
 }
+
+/* Styling the "About Me" text to be scrollable */
+.about-text {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px; /* For better alignment with the scrollbar */
+}
+
+/* Custom scrollbar styling */
+.about-text::-webkit-scrollbar {
+    width: 8px;
+}
+
+.about-text::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.about-text::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.about-text::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
