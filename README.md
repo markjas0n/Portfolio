@@ -71,6 +71,6 @@ Feel free to reach out if you have any questions, suggestions, or just want to c
 
 - [<img src="assets/images/mail.png" alt="mail" width="30"/>](mailto:markjas0n@icloud.com)
 
-- [<img src="assets/images/github (1).png" alt="mail" width="30"/>](www.github.com/markjas0n)
+- [<img src="assets/images/github (1).png" alt="mail" width="30"/>](https://github.com/markjas0n)
 
 - [<img src="assets/images/linkedin.png" alt="mail" width="30"/>](www.linkedin.com/marknorberte)
